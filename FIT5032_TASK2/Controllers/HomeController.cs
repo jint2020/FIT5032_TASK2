@@ -73,12 +73,8 @@ namespace FIT5032_TASK2.Controllers
                     ViewBag.error = "Email already exists";
                     return View();
                 }
-
-
             }
             return View();
-
-
         }
 
         public static string GetMD5(string str)
@@ -95,7 +91,6 @@ namespace FIT5032_TASK2.Controllers
             }
             return byte2String;
         }
-
         public ActionResult Login()
         {
             return View();
